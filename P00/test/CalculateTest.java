@@ -81,9 +81,17 @@ public class CalculateTest {
 		int expected = 7;
 		
 		assertEquals(expected,actual);
+		
+		int c = 0 ;
+		int d = 0;
+		
+		
+		int zerocheck = cal.divide(c,d);
+		
+		int zeroexpect = 0;
+		
+		assertEquals(zerocheck,zeroexpect);
 	
-		
-		
 		
 	}
 
